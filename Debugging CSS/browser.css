@@ -1,0 +1,18 @@
+/* Chrome version 29 and above */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm)
+{ selector { property: value; }}
+
+
+@media screen and (-webkit-device-pixel-ratio: 0) and (min-resolution: .001dp)
+{ selector { property: value; }}
+
+
+@media screen and (-webkit-device-pixel-ratio: 1) {
+p {
+    color: red;
+}
+}
+
+
+@media not all and {min-resolution:.001dpcm} @supports (-webkit-appearance: none) and (display: flow-root)   
+    { .selector { property: value; }} }
